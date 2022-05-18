@@ -10,7 +10,7 @@ Apukka Resort is a mobile application for guests or future costumers where they 
 
   •	List of activities and tours offer in the resort, with the possibility of booking them.
 
-  •	Location of the Resort using Google Maps API
+  •	Map with the location of the Resort
 
 # TECHNOLOGY STACK
 
