@@ -1,9 +1,9 @@
 import React from 'react';
 import {View, Text, ImageBackground, StyleSheet, SafeAreaView, Button, Linking} from 'react-native';
 
-const Room = () => {
+const Activities = () => {
 
-  const rooms=[
+  const activities=[
       {
           id: 1,
           name:'HUSKY SAFARIS',
@@ -30,7 +30,7 @@ const Room = () => {
   
 
 const list = () => {
-  return rooms.map((element) => {
+  return activities.map((element) => {
     return (
       <View style={styles.container} key={element.id}>
       <ImageBackground source={element.src} resizeMode="cover" style={styles.image}>
@@ -81,5 +81,5 @@ const styles = StyleSheet.create({
   }
 });
 
-export default Room;
+export default Activities;
 
